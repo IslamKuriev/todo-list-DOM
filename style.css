@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    width: 600px;
+    min-height: 489px;
+    margin: auto;
+    margin-top: 110px;
+    background-color: #fafafa;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    padding-bottom: 1px;
+}
+body {
+    background-color: #fff;
+    font-family: Rubik;
+}
+
+header {
+    background-color:rgb(78, 113, 226);
+    
+}
+header .title {
+    text-align: center;
+    color: #fff;
+    padding: 15px;
+   
+    font-weight: 400;
+}
+.add-todo {
+    margin-top: 50px;
+    display: flex;
+    margin-left: 48px;
+    gap: 26px;
+}
+#add-input {
+background-color:#fafafa;
+width: 300px;
+border-left: none;
+border-top: none;
+border-right: none;
+outline: none;
+border-width: 3.5px;
+border-color:black;
+}
+.placeholder {
+    padding: 7px;
+    font-size: 16px;
+}
+.add-btn button {
+    color: #fff;
+    background-color:rgb(78, 113, 226);
+    padding: 10px;
+    width: 100px;
+    border-radius: 5px;
+   border-color: rgb(78, 113, 226);;
+}
+.todo-item {
+    margin: 45px;
+    /* width: 420px; */
+    height: 1px;
+    background-color: black;
+ text-align: center;
+}
+.todo-text {
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 80px;
+}
+.btn-todo {
+    width: 25px;
+    height: 23px;
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 220px;
+    border-radius: 18px;
+    background-color: red;
+    color: #fff;
+    border-color:red;
+}
+.todo-checkbox {
+    position: absolute;
+    margin-top: -20px;   
+    margin-left: -250px;
+    width: 22px;
+    height:15px;
+}
+.toggle-checkbox {
+text-decoration: line-through;
+}
